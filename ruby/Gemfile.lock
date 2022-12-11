@@ -1,0 +1,53 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.0.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    concurrent-ruby (1.1.10)
+    debug (1.7.0)
+      irb (>= 1.5.0)
+      reline (>= 0.3.1)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    http-accept (1.7.0)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    io-console (0.5.11)
+    irb (1.6.0)
+      reline (>= 0.3.0)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
+    minitest (5.16.3)
+    netrc (0.11.0)
+    reline (0.3.1)
+      io-console (~> 0.5)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.8.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  debug
+  rest-client
+
+RUBY VERSION
+   ruby 2.7.2p137
+
+BUNDLED WITH
+   2.1.4
